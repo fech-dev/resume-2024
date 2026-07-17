@@ -14,6 +14,24 @@ const { t } = useI18n();
 
 const events = computed<TimelineEvent[]>(() => [
   {
+    title: "Full Stack Developer",
+    company: "Playmoove",
+    time: t("experienceEvents.2.time"),
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "Vue",
+      "TailwindCSS",
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Webpack",
+      "Vite.js",
+      "Docker",
+    ],
+    description: t("experienceEvents.2.description"),
+  },
+  {
     title: "Full Stack Web Developer",
     company: "Smart Contact / Meglioquesto Digital",
     time: t("experienceEvents.0.time"),

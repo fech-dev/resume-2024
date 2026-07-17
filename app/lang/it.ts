@@ -29,6 +29,13 @@ export default {
         "- Formazione e gestione del team",
       ].join("\n"),
     },
+    2: {
+      time: "MAGGIO 2025 - attuale",
+      description: [
+        `- Manutenzione e sviluppo di nuove funzionalità per il backend principale di Playmoove utilizzando Laravel e PHP`,
+        `- Implementazione di nuove funzionalità sull'app mobile utilizzando Cordova, Vue.js 2 e TypeScript`,
+      ].join("\n"),
+    },
   },
 
   projects: {
